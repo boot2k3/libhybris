@@ -9,6 +9,7 @@ eglplatform_fbdev_la_CXXFLAGS = \
 	-I$(top_srcdir)/common \
 	-I$(top_srcdir)/egl \
 	-I$(top_srcdir)/egl/platforms/common \
+	-I$(top_builddir)/egl/platforms/common \
 	$(ANDROID_HEADERS_CFLAGS)
 
 if WANT_TRACE
